@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/chaima/Documents/Techniques d'optimisation de la parallélisation/TOP_PROJET_ETUDIANT/simu_simple_LBM'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/chaima/Documents/Techniques d'optimisation de la parallélisation/TOP_PROJET_ETUDIANT/simu_simple_LBM'
+ 
