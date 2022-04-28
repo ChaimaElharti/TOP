@@ -1,5 +1,5 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/chaima/Documents/TOP_PROJET_ETUDIANT/simu_simple_LBM'
+make: Entering directory '/home/chaima/Documents/Techniques d'optimisation de la parallélisation/TOP_PROJET_ETUDIANT/TOP/LBM_debuggé'
 mpicc -Wall -g -c -o main.o main.c
 mpicc -Wall -g -c -o lbm_phys.o lbm_phys.c
 mpicc -Wall -g -c -o lbm_init.o lbm_init.c
@@ -8,5 +8,5 @@ mpicc -Wall -g -c -o lbm_comm.o lbm_comm.c
 mpicc -Wall -g -c -o lbm_config.o lbm_config.c
 mpicc -Wall -g -o lbm main.o lbm_phys.o lbm_init.o lbm_struct.o lbm_comm.o lbm_config.o -lm -fopenmp
 gcc -Wall -g -o display display.c
-make: Leaving directory '/home/chaima/Documents/TOP_PROJET_ETUDIANT/simu_simple_LBM'
+make: Leaving directory '/home/chaima/Documents/Techniques d'optimisation de la parallélisation/TOP_PROJET_ETUDIANT/TOP/LBM_debuggé'
  

@@ -1,6 +1,6 @@
 set term png size 1900,1000
 
-set output 'scalabilité.png'
+set output 'ScalabilitéForte.png'
 
 set label "Scalabilté par rapport au nombre de ressources de calcul"
 
