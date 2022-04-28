@@ -59,7 +59,7 @@ FILE * open_output_file(lbm_comm_t * mesh_comm)
 
 void close_file(FILE* fp){
 	//wait all before closing
-	MPI_Barrier(MPI_COMM_WORLD);
+	//MPI_Barrier(MPI_COMM_WORLD);
 	//close file
 	fclose(fp);
 }
